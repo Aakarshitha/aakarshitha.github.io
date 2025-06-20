@@ -8,8 +8,14 @@ $grid-gutter:     10px !default;
 $white:             #fff;
 $black:             #333;
 
+// Dark Theme Overrides
+$body-bg:           #121212;   // dark background
+$text-color:        #ffffff;   // primary text - white
+$muted-text-color:  #e0e0e0;   // secondary text - light gray
+$link-color:        #61dafb;   // accent link color
+
 // Styles
-$text_color:        $black;
+$text_color:        $text-color; // use dark theme text color
 
 // Font stack
 $body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
