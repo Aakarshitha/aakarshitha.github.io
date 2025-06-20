@@ -6,17 +6,20 @@
   box-sizing: border-box;
 }
 
+// Set background color for whole page
 html {
-  background: $white;
+  background: $body-bg;
 }
 
-body{
+body {
   @include serif;
+  background-color: $body-bg;
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
 }
 
+// Wrapper & layout utilities
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
@@ -34,13 +37,8 @@ body{
 .group:after { clear:both; }
 .group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
 
+// Selection styles
 ::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
-}
-::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
-}
+  background: rgba(255,255,255,0.2);
+  color: $text_color;
+  text-shadow
