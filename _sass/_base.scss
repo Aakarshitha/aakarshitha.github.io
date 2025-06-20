@@ -41,4 +41,38 @@ body {
 ::-moz-selection {
   background: rgba(255,255,255,0.2);
   color: $text_color;
-  text-shadow
+  text-shadow: none;
+}
+::selection {
+  background: rgba(255,255,255,0.2);
+  color: $text_color;
+  text-shadow: none;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $text_color;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+// Subtext / muted elements
+.subtitle,
+.meta,
+small,
+footer,
+.date,
+.project-description,
+.nav-subtext {
+  color: $muted-text-color;
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
