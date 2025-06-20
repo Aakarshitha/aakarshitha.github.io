@@ -196,6 +196,16 @@
 
 .print-only { display: none !important }
 
+// Optional: Dark-themed section styling for content blocks
+
+.section {
+  background-color: darken($body-bg, 5%);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
 @media print {
   .no-print { display: none !important }
   .print-only { display: block !important }
