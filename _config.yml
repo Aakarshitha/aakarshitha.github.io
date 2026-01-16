@@ -57,7 +57,7 @@ resume_print_social_links:      true
 
 # Design settings
 # resume_theme:                   default
-theme: bulma-clean-theme
+resume_theme: bulma-clean-theme
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
